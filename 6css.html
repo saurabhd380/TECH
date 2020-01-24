@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>09-01-2020</title>
+<style>
+.image {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+</style>
+</head>
+<body>
+<img src="download.jpg" alt="image1" width="190" height="190" class="image">
+</body>
+</html>
